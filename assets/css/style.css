@@ -20,7 +20,9 @@ html {
 3.Màu sắc
 4.Kiểu dáng
 */
-
+.clear {
+    clear: both;
+}
 
 #main {
 
@@ -172,6 +174,28 @@ html {
     font-size: 15px;
     text-align: justify;
     line-height: 1.6; /*do cao cua 1 dong*/
+}
+
+#content .members-list {
+    margin-top: 48px;
+    /* overflow: hidden; */
+}
+
+#content .member-item {
+    float: left;
+    width: calc(100% / 3);
+    text-align: center;
+
+}
+
+#content .member-name {
+    font-size: 15px;
+}
+
+#content .member-img {
+    width: 154px;
+    margin-top: 15px;
+    border-radius: 4px;
 }
 
 #footer {
